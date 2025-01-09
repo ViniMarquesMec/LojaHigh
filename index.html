@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HIGH COMPANY</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- IMAGEM LOGO -->
+    <main class="container">
+      <div class="image">
+        <img
+          src="imagens/high.png"
+        />
+      </div>
+
+      <div class="box">
+        <!-- Bloco de Cadastro -->
+        <div class="box1">
+          <section class="meus-dados">
+            <h1>
+              <img
+                img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAURJREFUSEvF1L8rRXEYx/HXTWaEwSiZLIpVRgulKBaLzWLwa7QopURS/gRZ5FcW/wAlGWQiIykMKKX8OKdc3c69557bOW6+2znn+3zen+fp85ycKp9clfVVCujFIjp+DF1gDsdJBisBjGKTIjOfGMRBOUgSoB43aIgRuUMb3uIgSYDQ4U7CGPpwlBYwjeUEwBRW0wIGsJ8A6MdhWkAdrtEUI3CPdrykBYR1I9gqIRCmaAi7WVKUr+3B0s8efOASszj5iz1I0ij7PSmmmcTD4nKAZswEm9oVzLkTjRHaI85xihU8lHITBxgLBNeDfIcpquQ8YRx70culAJPBr2GtEtUSd4axXfg+CmjFFWpSAl4RavyOKwrYwERK8XzZfGBwIf8QBdyiJSPgDN1xgHfUZgQ8F4Yj2sFXRvEi4/+6aH/STNU7+AYkwS0ZwQsJ3gAAAABJRU5ErkJggg=="
+              />
+              MEUS DADOS
+            </h1>
+            <p>Confirma seus dados</p>
+            <form action="#" id="formulario">
+              <!-- Bloco dos dados pessoas -->
+              <fieldset>
+                <legend>Dados Pessoas</legend>
+                <!-- Input do nome -->
+                <div class="form-group">
+                  <label for="name">Nome:</label>
+                  <input
+                    type="text"
+                    name="nome"
+                    id="name"
+                    placeholder="Digite seu Nome"
+                    class=""
+                    required
+                  />
+                </div>
+                <!-- input do CPF -->
+                <div class="form-group">
+                  <label for="cpf">CPF:</label>
+                  <input
+                    type="number"
+                    name="cpf"
+                    id="cpf"
+                    placeholder="Digite seu CPF"
+                    class=""
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="telefone">Telefone:</label>
+                  <input
+                    type="number"
+                    name="telefone"
+                    id="telefone"
+                    placeholder="Digite seu Telefone"
+                    class=""
+                    required
+                  />
+                </div>
+              </fieldset>
+              <!-- BLOCO DO ENDEREÇO -->
+              <fieldset>
+                <legend>Endereço</legend>
+                <div class="form-group">
+                  <label for="cep">CEP:</label>
+                  <input
+                    type="number"
+                    name="cep"
+                    id="cep"
+                    placeholder="Digite seu CEP"
+                    class=""
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="Rua">Rua:</label>
+                  <input
+                    type="text"
+                    name="rua"
+                    id="rua"
+                    placeholder="Digite sua Rua"
+                    class=""
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="numero">Numero:</label>
+                  <input
+                    type="number"
+                    name="numero"
+                    id="numero"
+                    placeholder="Digite seu numero"
+                    class=""
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="Complemento">Complemento:</label>
+                  <input
+                    type="text"
+                    name="Complemento"
+                    id="complemento"
+                    placeholder="Digite seu Complemento"
+                    class=""
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="Bairro">Bairro:</label>
+                  <input
+                    type="text"
+                    name="Bairro"
+                    id="bairro"
+                    placeholder="Digite seu Bairro"
+                    class=""
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="Cidade">Cidade:</label>
+                  <input
+                    type="text"
+                    name="Cidade"
+                    id="cidade"
+                    placeholder="Digite seu Cidade"
+                    class=""
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="Estado">Estado:</label>
+                  <input
+                    type="text"
+                    name="estado"
+                    id="estado"
+                    placeholder="Digite seu Estado"
+                    class=""
+                    required
+                  />
+                </div>
+              </fieldset>
+              <!-- BOTAO DE CONCLUIDO -->
+              <button id="form-btn" type="submit">CONCLUIDO</button>
+            </form>
+          </section>
+        </div>
+        <!-- BLOCO DE RESUMO / CUPOM DE DESCONTO  -->
+        <div class="box2">
+          <section class="resumo">
+            <h2>
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAKtJREFUSEvdlMENgzAMRR8HpmCBiiWAHTpQESfOXQeJLtER2jVaOEQKkBQwGAo5Wvl+9rfsAOUXKOfnXIAaSIWWPYDMpbUt+giTG5nT7t0ArmpMh76iTLzzb+yz7dpmAN+oVutAHTBm63/MQLISs2agDph6BO3tn9WBOkBiUQKEQAW8gahNYlf6BGJJZocmb2K3PuAKFMBlAeQF3IHy54ldABhIpw5TzDw+4Aty1SwZxzKRGgAAAABJRU5ErkJggg=="
+              />Resumo
+            </h2>
+            <div class="resumo-item">
+              <div class="box-camiseta">
+                <img
+                  class="foto-camiseta"
+                  src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8QDxAPDw8PDw8PDw8QDw8PDw8PEA8PFRUWFhUVFRUYHSggGBolGxUVITEhJSktLy4uFx8/ODMvNygtLisBCgoKDQ0NFQ8PFS0ZFR0rLi0tKys3Ky0uKzcrNS0rMC0rLS0tLS4vNSstKys4NysrMjcrKystLTctMi0tKy0tN//AABEIAOAA4QMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAAAQQFBgcIAwL/xABKEAACAgIAAwQGBAkJBQkAAAABAgADBBEFEiEGByIxE0FRYXGBMlVilBQXM3KRobGy0zRCRGNzdLPB0hUjJIKTJUNSVGSSo8LR/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAfEQEAAwABBAMAAAAAAAAAAAAAAQIRMQMhQWESE1H/2gAMAwEAAhEDEQA/AN4xEQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQERMP7Xd4/D+HFq2c5GSP6PRpmU/wBY30U+B6+wGBmExfj/AHgcKwXFd+UpsLcrJSrXtX73CA8v7fdNL9pu9biWYGSthh0tsclBPpCp9TWnr/7eWYFYen64HXHCO0mDljeLl0XfZSxS4+KfSHzEus4z0PWAf1y8YnHuI1KPRZubWvqVMq9V15dFDaHlLg60lp412lwcIE5WVTT9lnBsP5qDxH5CcvZfHc+z8rm5rg76PlXsp+RbUtXL7BqMHT/Z/vH4Vmt6OrJFdhblRMgegaz2FObo2/ZvfumWzjJPLXxmYdle8PiXDyoW45FA6HHyGZ019hj4k+XT3GB07Ew7sj3j8P4jy1h/wfJP9HvIUsf6t/J/l19wmYyBERAREQEREBERAREQEREBERAREsnabtVhcOr58q0KxHgqXxXWfmp7PedD3wL3Ma7VdueH8NBF9wa4Da41OrL29m18lHvYgTTna/vWzszmrxycLHOxqtv9+6/as/m/BdfEzX7NsknqSSST1JJ8yT6zLgzfth3o8Qzi1dTHCxj09HS5Frj7do0fkuh6juYKBJiBEgz6gQIT2TM+xvGaMWpics0XP4WrOL6ZCqlivi10+m3l7ZhpEbhF+7XZqX3Laty3FgeYpV6FV1oAcv6TLA0bgCFFEkxECNTP+yHern4XLVeTm440OW1j6ZF+xb5n4Nv5TAIgdS9le3fD+I6Wi7kv11xrtV3e/lHk496kzJpxqpIIIJBBBBHQgjqCD6jNg9j+9jOw+WrJ3m440P8AeNrIRfs2H6XwbfxEDomJYuzHa7B4inNi3BnA29L+C6v85D6veNj3y+yBERAREQEREBESGYAEkgADZJ6ACBM8M7Nqora2+xKq0G2exgigfEzX/a/vaxMXmqwgMy8bHODrHQ+9x9P4L094ml+0XaXM4hZ6TLuazRJSseGqv8xB0Hx8/aTKNmds++L6VPC19oOXav66qz+1v0TUWbl23WNbdY9tjnbPYxdmPvJnjIhHyYgwJQiIgREmRCpjUT6CkjejoeZ10AkHzE+hWdc2joebaOh858wIiCQPWJcM3guTTUt1tfIjsqjx1s22Usu1BJUEA62B5QmrdEaiVSJBgSD3xsl6nWyp3rsQ7R62KOp9oYdRNq9j++S2vlq4mhuToBk1KBao+2g6P8Ro+4zUsQOvOEcXxsuoXYt1d1Z/nI29H2MPNT7j1ldOQ+D8XycS0XYt1lFnTxIfpAeplPRh7iCJuPsd3yVWctXE0FFnQDJrBNLfnr1KH3jY+Eg2zE8sbIS1FsqdbK3G1dGDKw9oI6GesBERA+LmYKxRQzhSVUtyhm10BbR1s+uczdtO2nEc6x6sl2orV2U4de0RGUkFX9bsPtdNjoBOnJpXvu7H8jf7UoXw2FUy1A6K/klvz6Kffy+0ywNRkyIiVCREQIiIgRqTEQNk90HCqL0zvT0VXa9Ai+kRWK8wt5uUnqu+nUewS79lezIo4Y9eZigX35aIVdFd+RrK0ADDel5Qx6H2y291drV8P4pap5WReZW6HTJU7A9feZcOznayocLouzcvntrzN2czc93KHJXwjxEaIkee+7Oely47wThmO75t2JWa8Vaaq8empFV7HZdMw6BjtlHi6AA73Lnws5AupV8TExsQ1WBEouWwm1tPvQRV5dKfLfUiYe/eJZ6e8pgNkYV3KyB6mrsLciDbHTKy+E+r2T2y+L8WyeW3FopwKEoKtZuvIepDyuw5ANglQnhCb/yjPxt5XLh2AKuHcUSrIxssX35DVisg11vbyhVc9fECVPu6TEMHhtVVXPXZgUY/M6Nl5yenszXrKq4qo1tauYsOni6ddS5VcP4pw3HemurHvwRYmVfcnKMlqlZGbwl+h0mvI9PX7Lbi8GF6UhRh5VKNaKbrM78F1XbYXPpqOj8ysz+TDfv9dbjz3VObjrQuQ2FZXVjY1+QFpsoa3/aDoqtcHc60ihvRgfYPUk7lt44R+CcUccqBuL4+PWnMSdY9dq+vz8PKf0y+WLTbfcRl4C8Ja66x92BclUbl9NWi/S071glgCdMdEbln7dZdP4LRSn4F+EW5V+XmfgdxtUWkaQnZOiyWfpU6ha8wwaNSYld3zqJJkSCYiIEwDIkiBfey/afPwLB+B3OvMwBo0bKrWJ0Aa/WSTrY0ffOo+GWXNRU2Qi13tWhtrRiypYR4lB9ejNH9yPZT8IyTxC1d04jap2Oj5Ot794QHfxK+yb6kCIiAnhn4dd9VlFqh6rUauxT5MrDRE94gcn9quBWYGZdiWbPo22jn/vKj1R/mPP3g+yWidA99HZU5eIMyld5GGrFgBtrMbzce8r9If83tnP0oiIgyoiJ87n1AREiBeeA5ec4bAxLGVcpt2IulDALpi762EC72P1EzYFXDcXBeqpMbGNji30V97JZc5QDbFSPDvm66I6A9DrUxHsRxeitcjFySK68lQRbsqQ6g6RnB6Kd/DY69CZl+Pl5VVyLkChMIJcz3UKqejI8fj9IWA2vMQF3vn2NgSOHU3ceOb2gyGvpVab7MUtS7X49hetqm5S/hrBJK+MFS3XX0fIzI8DjXpRUMSkWrYrBWDU2Cvxrsa5V9QJLAkAgbBJEojZQ1yYpdmc1u9QqWta3KMqJoqu18RGwSR1XprYDj3E6uF4r146FjWVodqwwCvyh1qBH5KsBwSd8x302xZhHPNyMXbO9IXUVN6S1w1V7IKlVxrxqg9GecghAWbQXy3skTD+J9icKxmHpsbGdeQlUtUsN8w06qOReo0Na8jve+mRcHzFyMJTW4LvUot5AoLIqBeRAB1CWHxVDR8XsYBvpuAvcH9FfdUtvKR6JMVwiqwdfReJSASW6sGJ2evlBEzE/jW/E+wWdXYyVVG4IrOdGtXAHXWuY8x0QRy72PUCCBihE3L2ptbER8gmyy3GqpXHVhT4GUuqv5s4IDvs82iCdg6O8E7zK6hniypFRMjGpyfDvbtaXYswPk3q0PUB6yZXel5nlicREOpIkwICIkwEreDcNtysinGpG7b7FRN+Q35sfcBsn3AyiE3Z3E9l+VH4navis5qsUH1Vg6ss+ZHKPcp9sDZvZ3g1WDi04lI8FKBd6ALt5s7e9mJJ+MuMRIEREBERAETnXvC7AZGLmuMPGvuxrgbaRRTZYKdnxVnlB1o+XuI9hnRUQOW6OwnF3G14dk9f8AxIK/3yJUr3Zcbb+gMPe1+Io/xNzpufNp8LfA/sl0cbxPms7UH2gGfUoREQhL/wAG7WZGMtdeq7aq2BC2hiwQNzcisD5b2RsHlJOpj8SExE8sks7WWfhiZNdYSutBWmOW2FqOiyiwAHm5hzB/MEL561Msx+8+lh/xGIxbWuZOTnJPnt1KbH/KP1TWEmGZ6dZbRr7yMGvxV4VocMXUsQy85GixHP8AS105vPrLYneUwYk4aMvMWVWsrOmOyxJNR9bHy185gMiE+qrNcrvEvJ5qsbHTqdek3ZyghgdBAg/nHrryPxmN8b4zbltW1orBqqWlBWpUCtd6BLEk637ZbpENRWscQREQ0T1xMZ7bK6axuy6xKqwSF3Y7BVGz0GyRPKV/Z86zcM+zMxD/APMkDIb+7DjaeeCzD+rvxm/Vz7lpzOynEqTqzAzAfdj2uP0qCJ1jEg5Y7KdksjNzasRq7agx5r3et0NVI6sfEPMjoPeROocPFrprSmpQldSKlaL5KijQA+QntEBERAREQEREBERAQYiBxxegV3UeSuwHwBInxPbL/KWf2j/vGeMoiTIiAiJECZM+ZMCYiRAREQEREoSu4EdZmJ7szF/xUlFKvhH8px/7xR+n0iyDr+IiQIiICIiAiIgIiICIiAiIgcfcRXV1w9ltg/QxEppVcW/lF/8Ab3fvmUkoSJMiAiJMBERKEREgREShERCErOEfynH/ALxR++so5UcPOrqj7Laz+hhIrsOIiQIiICIiAiIgIiICIiAiIgcf8VP/ABF/9tb++ZSSo4gd3W/2tn7xlPKEiJECYEiTASZESiYiJAkREBJkRAmeuOdOh9jKf1zyn0p119ko7IEmfNR8I+A/ZPqZCIiAiIgIiICIiAiIgIiIHHWX+Uf89/2meBntmflLPz3/AGmeMoSIiAiIgTAiRAmIiAiIlCIkSD6Eld+rqfUB1JnxPSmzlIbW+Uhte3XWCHYmI4atGBBBVSCPLynrKDgJ3i47b3z0o+/zhzf5yvkWc3sREQhERAREQEREBERAREQOOMv8o/57/tM8Z75q6ssHsscfoYieEoSJMQIkyJMBJiICIiAkSZBgIiIExEkQOteyTE8OwSfM4WKT86ll2ln7Gn/s3A/uOJ/hLLxIEREBERAREQEREBERAREQOP8Aiy6yMgezIvA+TtKMib64h3K4ltttozMlPS2WWFeSlgpdixA6Dp1lOe43H9Wff/0qpRo3Ucs3ge4yj/z93zorP+c+fxGU/WFv3dP9UDSHLJ5Zuz8Rdf1i/wB2X/XH4i0+sX+6r/EgaT1J1N2juMq+sLPu6f6p8nuMr9XEX+7L/rgaU1Gpur8Ri/WJ+6D+JIPcWv1kfug/iQNK6jU3Se4sfWR+6D+JJ/EWv1i33UfxIGleWTyzdQ7jE9fEW+WKv8ST+IxPrF/uq/xI0aT1PoCbqHcZX6+Iv8sZR/8Aeen4jaPrC7/oV/8A7A2H2LO+GcPP/ocT/CWXmUnCcIY+PRjqeZaKaqQxGiwRQoOvlKuQIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgf//Z"
+                />
+                <p>1X - CAMISETA HIGH SUPER ESTILOSA - R$169,00</p>
+              </div>
+            <div class="box-bone">
+              <img
+                class="bone-imagem"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoLeJZi7pK9qtUp-pOFv9Vza6oBjGVHPJRbn6fAGKoFwGNiRAWoDIxC01Z6n6PRnka5GI&usqp=CAU"
+                alt=""
+              />
+              <p>1X - BONÉ HIGH SUPER CONFORTAVEL - R$119,00</p>
+            </div>
+            <div class="aplicar-desconto">
+              <div class="aplicar-desconoto-head" onclick="toggleDiscount()">
+                <span>Aplicar cupom de desconto</span>
+                <img
+                  id="troca-icone"
+                  class="bx-chevron-down"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAOtJREFUSEvt1T1OgkEUheGH2LMBExNjApY2LoDCmn1oS8MOdAG6FBsKF2BDaEwsRBNXQE8g1/BZjA58jGAI4ZaTOefNPXd+GrZcjS37+3dAF7c4L+zsBT08Vvq0g08cF5pXsjec5QCzP5r/8E07OAB2L6IbPKwY/DXukz3fs1015Cmu8JSBdDDAUSkgdBNcYJyYnGKI5i/w2h1U2ldcLmCxFqbPaGU6WxsQPhFTxBUVsUQ8uSoChFkMM8Qx2GVVDKj7kuwx4AMndXPI7HtHHOGvSi9afDh3aBdCRugv+3AKfWuc1407ZyLaOGcO4UomGQI24SoAAAAASUVORK5CYII="
+                />
+              </div>
+              <div class="aplicar-desconto-body" id="aplicar-desconto-body">
+                <input
+                  type="text"
+                  id="disconto-code"
+                  placeholder="Digite o Coódigo de desconto"
+                />
+                <button id="botao-descont" type="button" onclick="applyDiscont()">
+                  Aplicar
+                </button>
+                <span
+                  id="disconto-mesage"
+                  style="display: block; margin-top: 10px; color: green"
+                ></span>
+                <p id="total-price">Preço total : R$:288,00</p>
+              </div>
+              <div class="icons">
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZ9JREFUSEvt1U2IjlEUB/DfFGUhUkRshpUkZM3CUmSyYc2CmtHssJB8bHwVC2VhUrJhY0W2FrIwiyE1GTulCRv5SJLP5+i+dbvdO1Nvvbs5u+f+zzn/c//nnvMMGbANDTi/BYJ5FZ5LosCGsQqv8LXIthwb8QFvWkw1ghU4hwNYnQU+xvEOi5ir2JlhH3EXp/A5JysJtuMB1lYq+oKxLslPXMD6is97jGCyh+UEK/EC6xrXPdadn03YUdxv+IVcm7vbfgs8JziN842gZ5jG4YTfxBrsa/hP4EhJ8BzbGgGXcSg1PFze4STuNPx/YXFJ8AnxMmp2JjU+x0ZxY453ugQ/colmG82NHPF6rhTJamc9l+9Yij85wSPsblQU2t/Keva3kykaHb2o2VPsKCXag4eNgHvYhC0Jn8Lb9CRrIdGv2yVBfEeig5WIqDg0v5awkOd6o5iX2NrDykGLKQ4p9leCX+MifndYzMOGik8MWsgc8/TfWrtoL8axC4uS7xOcSDGX+l0VZVHL0kKbQayK3Ppedg1p+zte+KPNq9vAJfoHQEdHGY6pjuEAAAAASUVORK5CYII="
+                />
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAASpJREFUSEvt1DEoBkAYxvEfg5IsBoOQxSAWi0RZLCJlwKAoShKLSCQpIqWwyCBlZzHIrjBQskgYZBcjmzvdJF9fBqV8V1fXdXfP8/zft8vzyyPvl9+XE8hKOIfobyEaRz8a0IVDLGIejTjHFmaxiVaUYAo7GMIuLtIbn+m+FrkiHHzCBqbT+gETuMQoyjGHBdyleYVbVAVT+SjG23cCce8Gz1hLKXrCuihc3kMLmrCKa4zhFO04SmmX0IyzTALR/QhOUJdcLadEEckrBhKmQlQnNDXpXhSaxHomgTYcp/aIKFaSu3rUojOhGw54+tAdjBx8aaf9QKI3k0B0FV3GUZZwPeI+cJ1J0QtCsd9TqphyEKV4wXYodAcqMwlk7e2fHMh9FVlp5RD9A0Qfnwk2GfC/6mYAAAAASUVORK5CYII="
+                />
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAaRJREFUSEvd1T1rVkEQBeAnSmxMaWeRUtBSgogQ0aCChYg/wMJCRWwEIUIglfgREUQRUQvRwkZESGEVCEQQ0VLUVClEuyREEZLGjx3YyPXNe8MECYLT7N29s3Nmz5zZ7bHO1rPO8f1TgB14hb6WU37DXVzBbBsTq53gDG4nKPyMXYhxha0GcKtkdjYBEC43cG6tABMYSgK8xJ61AnzC1iTAJI7ia6d/G0WbEUXM2iX0I8b3zU1tAAN4nYz+HTsRNF3HaAbgOB4mASLrL7haKL2PkxmAy7iQAAgZj+M5NmKk0vR7axtFz2rRlh2f1I+PtTbzRWEvcACRzIb6fzs+ZE4wjW3V8S1O4VCdR6bRWHtLtpsawUJJ+zMq6i30LDWyuoefFaSNtRDEwVqLP3y6URTHfNfwig49gn0d0ecwg8e4WdTzI9tox/C04XwYj7Clrr2p9CwmRND1ug4lXGxsHizcTjXmYxjOBA+fbhRdK0o5XwNEE0Vx415athOlax/8DUDn3tO401jcXd+JFEbmRYuGC62HLdQ7Z8Wl1oaWAUhl+v8C/ALVvUMZyRlRaAAAAABJRU5ErkJggg=="
+                />
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAcBJREFUSEvV1U2IT1EYBvDfLHzFZGFtISmikVn4KlkiWYopC6wsUWoWsiBJoSyt2PjKgiRWSrGZlTINISUrpimaaRqKGffVnTod9/7/J5rirdute57zPu/7nPc8t8ccR88c5/dPEPRjBzZhK7+KeoU3eIB7nVTo1MF8nMfRLjI+w158bMK1EazBnepZW3hGUchgKcFCvMCqhg2v8R0rEbiImziA6VKCSziWgL/hLK5gtP4+r0p4CtHpPvxo6zSXaDueJOAJbMC7Qql+g+UENzCQoA7j6p8mj305wRA21gnHsTRLvqga10ddCM/g8SwmJxjDsnoxxm9blmwJQrZOcQIX2gg+YPlfEsS9udxGcB976sUpLMZMUm6TRNHxugSzv5qu220Eod/JBHwI17pIchHHE8wKvG8jiMWXySX6gvUI6ZqiD3FWvfXiSNZNo5vGlT+XZPtcVXQQId9shE8dwels0mLEb6WVNHlR3NLnDT4URG+rCYlJCqtYkLX0ELvzNtvMbnUlzd2qmniXxFPswmQpQeBChpAqPcB8/1eEd4UvNfpRyR8tvGgntmBzffuH65/NdXzq1GIJQYlErZj/n+AnYyRHGa4JiQsAAAAASUVORK5CYII="
+                />
+              </div>
+              
+              <div class="pay-by-pix" onclick="togglePix()">
+                <p>Pagar pelo PIX</p>
+                <div class="pix">
+                <img id="troca-icone-pix" class="bx-chevron-down-pix"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAOtJREFUSEvt1T1OgkEUheGH2LMBExNjApY2LoDCmn1oS8MOdAG6FBsKF2BDaEwsRBNXQE8g1/BZjA58jGAI4ZaTOefNPXd+GrZcjS37+3dAF7c4L+zsBT08Vvq0g08cF5pXsjec5QCzP5r/8E07OAB2L6IbPKwY/DXukz3fs1015Cmu8JSBdDDAUSkgdBNcYJyYnGKI5i/w2h1U2ldcLmCxFqbPaGU6WxsQPhFTxBUVsUQ8uSoChFkMM8Qx2GVVDKj7kuwx4AMndXPI7HtHHOGvSi9afDh3aBdCRugv+3AKfWuc1407ZyLaOGcO4UomGQI24SoAAAAASUVORK5CYII="
+                alt="">
+              </div>
+            </div>
+
+               <!-- QR CODE -->
+              <div id="aplicar-pix" class="qrCode">
+                <img src="imagens/qrCode.png" alt="">
+                <p class="texto-pix">Só apontar sua camera para o QRCode!!</p>
+              </div>
+              
+              <!-- IMAGEM DO PIX e Imagem de seguro -->
+              <div class="iamgem-pix">
+                 <img
+                class="pix-imagem"
+                src="/imagens/imagemPix.png"
+                alt=""
+          
+              />
+             
+              <img class=" imagem-seguro" src="/imagens/seloSeguranca.png" alt="">
+              
+              
+            </div>
+            <div class="bloco-info-seguro">
+              <p class="safe">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAehJREFUSEu11UuoTXEUx/HP9UjEQJ4DQ4UJAybII2MDj4GJYkAUkvIqmSi5yURJyUQYmIgMlIG8ypBkohSSZxkgeb/+6/Y/2v6dffc+dPdot85av+/6r/1b/9NniJ++IdbXC2A5duEdjuJqm+aaAGOwDtsxoxC8n0Fn8aUOVgeYhm3YmETGN3T6BidwDK/K3BIwD7uxGsPajKCS8wPn0Y+7nXgVEO+fMKpH4TI9NGK0A08VMALf/lM8yn9ieDdAxD5idEvIU1zC1iL/NabWAR5iegvA42TTRckEz3EGays1t7GwDnABKwrAweSOzZiQ44+wBM8wC9cxuVJzHFvqAPuTew5Uko/k5ZqZRK/hQxJcmjuP2K1kz4lFQ7E3p+sAs3GvUvAkjyK6jUV7j5f5/WbReZR9xyS8rQNE/EGxtTHvxXkk8XuAbmBKl291MTW4shrvtskbcLIojpPMx9g8lj8uKfLm4k4TIBYtBEuRcNi4LvGOXnyjZeWp6u6iVXntWzh2IOUr5uTx/lUz2G16DmtaEvak6+Fwt9zBADHvK1jQAAlLrsevXgGRH9fG5ez9bvVhhk114lHQ9IcTOSOxN12E+yo3bfh8B041jbANoKMR/j+UYJ/TRu/Eiybxtidoo1Ob08sJ/gn0G9ECThlVRgGfAAAAAElFTkSuQmCC"/>Suas informação estão seguras</p>
+            </div>
+              <!-- TEXTO DE GARANTA -->
+              <div class="garantia">
+                <div class="garantia-box">
+                  <h3>VOCÊ TEM 15 DIAS PARA TROCA DO PRODUTOS </h3>
+                  
+                    
+                   <p>Comprou e o produto não serviu? Não se preocupe!</p> 
+                    
+                    <p>Estamos aqui para garantir sua satisfação. Se precisar realizar a troca, entrar em contato via email - vinicius@gmail.com:</p>
+              
+            
+                  
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <footer>
+        <p>
+          <a href="#">TERMOS DE USO</a>
+        </p>
+      </footer>
+    </main>
+     <!-- EXPORTAÇÃO DO JS -->
+     <script src="formulario.js"></script>
+     <script src="desconto.js"></script>
+  </body>
+</html>
